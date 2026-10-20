@@ -1,0 +1,40 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Next.js
+nextjs-dashboard/node_modules/
+nextjs-dashboard/.next/
+nextjs-dashboard/out/
+nextjs-dashboard/build/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
